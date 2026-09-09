@@ -1,0 +1,35 @@
+h1{
+    color:rgb(243, 248, 244);
+    font-size:50px;
+    text-align: center;
+}
+h2{
+    color:rgb(13, 116, 0);
+    text-align: center;
+}
+h3{
+    color:aliceblue;
+    background-color: darkgreen;
+}
+body{
+    background-image: url("https://media.tenor.com/6_6w6bLgnC4AAAAM/paulinho-palmeiras-palmeiras-3-a-0-flamengo.gif");
+        text-align: center;
+}
+img{
+    width: 200px;
+}
+footer{
+    color: rgb(247, 250, 248);
+    background-color: darkgreen;
+}
+.imagem{
+    text-align: center;
+    background-color: rgba(2, 70, 0, 0.925);
+    width: 300px;
+    margin: auto;
+    border-style: dashed;
+    border-radius: 50px;background-color: darkgreen;
+    margin-bottom: 50px;
+    border-color: aliceblue;
+}
+

@@ -1,0 +1,90 @@
+header{
+    background-color: rgb(0, 121, 20);
+    padding: 20px;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 20px
+}
+nav a{
+    text-transform: uppercase;
+    color:rgb(0, 105, 0);
+    font-weight:rgb(129, 21, 72);
+    font-size: 22px;
+    text-decoration: none;
+}
+.caixa{
+    position: relative;
+    width: 1800px;
+    height: 220px;
+    margin: 0 auto;
+}
+header img{
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.servicos{
+    width: 1800px; 
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.servicos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 1px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 117, 10);
+    border-radius: 30px;
+}
+.servicos img{
+    width: 220px;
+}
+.servicos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.descricao{
+    font-size: 19px;
+}
+.preco{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+nav a:hover{
+    color: rgb(9, 110, 0);
+    text-decoration: underline;
+}
+.servicos li:hover{
+    border-color: rgb(0, 117, 20);
+}
+.servicos li:active{
+border-color: rgb(0, 100, 0);
+}
+.servicos li:hover h2 {
+    font-size: 60px;
+    color:rgb(3, 100, 0)
+}
+footer {
+    text-align: center;
+    background-color:rgb(3, 102, 0);
+    padding: 39px 0;
+}
+footer img{
+    width: 100px;
+}
+.copyright {
+    color:black;
+    font-size:13px;
+    margin:20px 0 0;
+}
